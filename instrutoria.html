@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Instrutoria | AInfor</title>
+    <link rel="icon" href="imagens/lampada.png">
+
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="estilo/estilo.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <nav class="navbar navbar-fixed-top navbar-inverse navbar-transparente">
+      <div class="container">
+        
+        <!--Header-->
+        <div class="navbar-header">
+
+        <!--Botão toggle-->
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#barra-navegacao">
+              <span class="sr-only">Alternar navegação</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+          </button>
+
+          <a href="index.html" class="navbar-brand">
+            <img class="img-logo" src="imagens/index_ainfor.png">
+          </a>
+        </div>
+        <!--Navbar-->
+        <div class="collapse navbar-collapse" id="barra-navegacao">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="empresa.html">Quem somos</a></li>
+            <li><a href="servicos.html">Serviços</a></li>
+            <li><a href="ebook.html">Ebooks</a></li>
+            <li><a href="oportunidades.html">Oportunidades</a></li>
+          </ul>
+        </div>
+      </div><!--/Container-->
+    </nav><!--/Nav-->
+
+    <!--Intrutoria-->
+    <section id="instrutoria">
+      <div class="container">
+        <div class="col-md-12">
+          <div class="row">
+            <h3>Instrutoria</h3>
+          </div><!--/Row--><br>
+        </div>  
+        <!-- Primeira grade-->
+        <div class="container">    
+          <div class="row">
+            <div class="col-sm-6">
+              <div>
+                <h4>O que você Precisa?</h4>
+                <p>Aqui você aprenderá apenas o que precisa. Alinharemos sua necessidade ao que podemos te oferecer e assim você não ficará preso a cronogramas.</p><br/>
+              </div>
+              <div>
+                <h4>O que oferecemos:</h4>
+                <ul> 
+                  <li><strong style="color:#04B45F">Aulas de Informática:</strong> Ferramentas simples para atividades complexas, eleve seu nível de uso e compreensão das mesmas para as suas atividades diária.</li><br/>
+                  <li><strong style="color:#04B45F">Instrutoria de MS Project:</strong> Elabore cronogramas coerentes a suas atividades! Tudo na vida gira em torno de projetos, sejam eles pessoais ou profissionais.</li> <br/>
+                  <li><strong style="color:#04B45F">Aulas de desenvolvimento de sites:</strong> Quer aprender a desenvolver sites? Podemos te ensinar, de forma simples e bem didática. Sem complicação!</li><br/>
+                  <li><strong style="color:#04B45F">Aulas de digitação:</strong> Pode parecer algo simples, mas é uma das profissões mais bem remuneradas na área de tecnologia! Digite certo, digite bem e rápido!</li>
+                </ul>
+              </div>
+              <div>
+                <p>Conheça nossa metodologia de ensino e solicite já o seu <strong>orçamento!</strong></p>
+
+                <button type="button" class="btn btn-primary"  data-toggle="modal" data-target="#nossosPlanos">Nossos planos</button>
+
+                <a href="orcamento.html" class="btn btn-success" role="button">Solicitar orçamento</a>
+              </div><br/>
+            </div>
+            <div class="col-md-6" >
+              <div href="" class="thumbnail">
+                <img src="imagens/img_instrutoria.png" alt="Instrutoria de TI">
+              <br/>
+              <ul class="list-group ">
+                <li class="list-group-item"><span class="glyphicon glyphicon-ok" style="color:#04B45F"></span> <strong>Aulas particulares</strong> - No conforto do seu lar, escolha o dia e a hora.</li>
+                <li class="list-group-item"><span class="glyphicon glyphicon-ok" style="color:#04B45F"></span> <strong>Em Colégios</strong> - Deixaremos seus alunos prontos para o mercado de trabalho.</li>
+                <li class="list-group-item"><span class="glyphicon glyphicon-ok" style="color:#04B45F"></span> <strong>In company</strong> - Invista naqueles que fazem o seu negócio crescer!</li>
+              </ul>
+              </div>
+            </div>
+          </div>
+          <form class="modal fade" id="nossosPlanos">
+            <div class="modal-dialog modal-lg" >
+              <div class="modal-content">
+                <!--Cabeçalho-->
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
+                  <h4 class="modal-title">Nossos planos</h4>
+                </div>
+                <!--Corpo-->
+                <div class="modal-body">
+                  <div class="form-group">
+                    <div class="col-md-4">
+                      <ul class="aulasParticulares list-group">
+                        <li class="topo_aulasParticulares list-group-item">Aulas particulares</li>
+                        <li class="topo_aulasParticularesDois list-group-item"><strong>INFORMÁTICA</strong></li>
+                        <li class="list-group-item">MS Office 2013 - (Word, Excel, Power Point, Outlook)</li>
+                        <li class="list-group-item">MS Project 2013</li>
+                        <li class="list-group-item">Digitação - Avançado</li>
+                        <li class="list-group-item">Criação de Sites - (HTML5, CSS3 e muito mais)</li>
+                        <li class="topo_rodape_aulasParticulares list-group-item">Apenas<strong> R$ 45,00/h</strong></li>
+                      </ul>
+                    </div>
+                    <div class="col-md-4">
+                      <ul class="emColegios list-group">
+                        <li class="topo_emColegios list-group-item">Em Colégios</li>
+                        <li class="topo_emColegiosDois list-group-item"><strong>INSTRUTORIA</strong></li>
+                        <li class="list-group-item">MS Office 2013 - (Word, Excel, Power Point, Outlook)</li>
+                        <li class="list-group-item">MS Project 2013</li>
+                        <li class="list-group-item">Digitação - Avançado</li>
+                        <li class="list-group-item">Criação de Sites - (HTML5, CSS3 e muito mais)</li>
+                        <li class="topo_rodape_emColegios list-group-item"><a href="orcamento.html" class="btn btn-success btn-block" role="button">Faça um orçamento</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-md-4">
+                      <ul class="inCompanny list-group">
+                        <li class="topo_inCompanny list-group-item">In company</li>
+                        <li class="topo_inCompannyDois list-group-item"><strong>CAPACITAÇÃO</strong></li>
+                        <li class="list-group-item">MS Office 2013 - (Word, Excel, Power Point, Outlook)</li>
+                        <li class="list-group-item">MS Project 2013</li>
+                        <li class="list-group-item">Fundamentos da Gestão de Projeto</li>
+                        <li class="list-group-item">MS Project 2013 + Fundamentos da Gestão de Projeto</li>
+                        <li class="topo_rodape_inCompanny list-group-item"><a href="orcamento.html" class="btn btn-success btn-block" role="button">Faça um orçamento</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!--Rodappé-->
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Voltar</button>
+                  <a href="orcamento.html" class="btn btn-success btn-sm" role="button">Solicitar Orçamento</a>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div><br>
+      </div>
+    </section>
+    <!--Rodapé-->
+    <footer id="rodape">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2">
+            <h4>Sobre nós</h4>
+            <ul class="nav">
+              <li><a href="empresa.html">Empresa</a></li>
+              <li><a href="servicos.html">Serviços</a></li>
+              <li><a href="orcamento.html">Orçamento</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <h4>Oportunidades</h4>
+            <ul class="nav">
+              <li><a href="ebook.html">E-books</a></li>
+              <li><a href="instrutoria.html">Capacitação</a></li>
+              <li><a href="oportunidades.html">Trabalhe conosco</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h4>Contatos</h4>
+              E-mail: contato.ainfor@gmail.com<br/>
+              Cidade: Salvador - BA - Vale das Pedrinhas - n18 <br/> 
+              Cep: 41927-040 <br/><br/>
+              CNPJ: 28.228.395/0001-01
+          </div>
+          <div class="col-md-4">
+            <center>
+              <img src="imagens/lampada.png" style="width: 70px; height: 70px;">
+              <p style="color: #919496;">"A Tua palavra é lâmpada para guiar os meus passos, é luz que ilumina o meu caminho."</p>
+              <h4>Salmos 119: 105</h4>
+            </center>
+            <!--<ul class="nav">
+              <li class="item-rede-social"><a href="#"><img src="imagens/facebook.png"></a></li>
+              <li class="item-rede-social"><a href="#"><img src="imagens/twitter.png"></a></li>
+              <li class="item-rede-social"><a href="#"><img src="imagens/instagram.png"></a></li>
+            </ul>-->
+          </div>
+        </div><!--/Row--><br/><br/>
+        <div>
+          <center>&copy 2017 - Todos os direitos reservados | Desenvolvido por ainfor.com.br</center>
+        </div>
+      </div>
+    </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>

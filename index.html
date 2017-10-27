@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Home | AInfor</title>
+    <link rel="icon" href="imagens/lampada.png">
+
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="estilo/estilo.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <nav class="navbar navbar-fixed-top navbar-inverse navbar-transparente">
+      <div class="container">
+        
+        <!--Header-->
+        <div class="navbar-header">
+
+        <!--Botão toggle-->
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#barra-navegacao">
+              <span class="sr-only">Alternar navegação</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+          </button>
+
+          <a href="index.html" class="navbar-brand">
+            <img class="img-logo" src="imagens/index_ainfor.png">
+          </a>
+        </div>
+        <!--Navbar-->
+        <div class="collapse navbar-collapse" id="barra-navegacao">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="empresa.html">Quem somos</a></li>
+            <li><a href="servicos.html">Serviços</a></li>
+            <li><a href="ebook.html">Ebooks</a></li>
+            <li><a href="oportunidades.html">Oportunidades</a></li>
+          </ul>
+        </div>
+      </div><!--/Container-->
+    </nav><!--/Nav-->
+
+    <div class="capa">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+        <!-- Indicador-->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Slides -->
+        <div class="carousel-inner" role="listbox">
+
+          <div class="item active">
+            <!--<h3>Instrutoria de informática para pessoa física e jurídica.</h3>-->
+            <!--<a href="instrutoria.html" class="btn btn-custom btn-verde btn-lg">Saiba mais ... </a>-->
+            <img src="imagens/canva1.png" width="100%" class="img-responsive">
+          </div>
+
+          <div class="item">
+            <!--<h3>Websites responsivos e que atendem a sua necessidade.</h3>
+            <a href="websites.html" class="btn btn-custom btn-verde btn-lg">Baixo custo</a>-->
+            <img src="imagens/canva2.png" width="100%" class="img-responsive">
+          </div>
+          
+          <div class="item">
+            <!--<h3>Hotsites! Chamadas rápidas para eventos, campanhas, etc.</h3>
+            <a href="hotsites.html" class="btn btn-custom btn-verde btn-lg">Necessidades de curto prazo</a>-->
+            <img src="imagens/canva3.png" width="100%" class="img-responsive">
+          </div>
+        </div>
+
+        <div class="setas">
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Próximo</span>
+        </a>
+        </div>
+      </div>
+    </div>
+
+    <section id="index">
+      <div class="container">
+        <div class=" newsletter col-sm-12">
+            <p></p>
+              <form>
+                <div class="input-group">
+                  <input type="email" class="form-control" size="50" placeholder="Receba nossos ebooks gratuitos e potencialize seu conhecimento sobre as atuais tecnologias para o seu  negócio." autofocus="" required/>
+                  <div class="input-group-btn">
+                    <button type="button" class="btn btn-primary">Newsletter</button>
+                  </div>
+                </div>
+              </form>
+          </div>
+        <div class="row">
+          <!--Recursos-->
+          <div class="col-sm-4">
+            <h3>O que oferecemos</h3>
+            <p>
+              Formada para dar instrutoria a outros micros negócios através de treinamentos/capacitações, ministradas também à pessoa física . . .
+            </p>
+            <p><a class="btn btn-primary" href="empresa.html">Saiba mais &raquo;</a></p>
+          </div>
+          <div class="col-md-4">
+            <h3>Capacitação Free</h3>
+            <p>
+              Tenha acesso gratuito a nossos materiais exclusivos, e potencialize seu conhecimento sobre informática e as tecnologias atuais. . .
+            </p>
+            <p><a class="btn btn-primary" href="ebook.html">Saiba mais &raquo;</a></p>
+          </div>
+          <div class="col-md-4">
+            <h3>Instrutoria em TI</h3>
+            <p>
+              A Instrutoria é a nossa atividade principal, e foca instruir ou capacitar nossos clientes, quanto aos recursos tecnológicos para o seu negócio . . .    
+            </p>
+            <p><a class="btn btn-primary" href="instrutoria.html">Saiba mais &raquo;</a></p>
+          </div>
+        </div>
+      </div><!--/Row-->
+    </section>
+    
+    <!--Rodapé-->
+    <footer id="rodape">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2">
+            <h4>Sobre nós</h4>
+            <ul class="nav">
+              <li><a href="empresa.html">Empresa</a></li>
+              <li><a href="servicos.html">Serviços</a></li>
+              <li><a href="orcamento.html">Orçamento</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <h4>Oportunidades</h4>
+            <ul class="nav">
+              <li><a href="ebook.html">E-books</a></li>
+              <li><a href="instrutoria.html">Capacitação</a></li>
+              <li><a href="oportunidades.html">Trabalhe conosco</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h4>Contatos</h4>
+              E-mail: contato.ainfor@gmail.com<br/>
+              Cidade: Salvador - BA - Vale das Pedrinhas - n18 <br/> 
+              Cep: 41927-040 <br/><br/>
+              CNPJ: 28.228.395/0001-01
+          </div>
+          <div class="col-md-4">
+            <center>
+              <img src="imagens/lampada.png" style="width: 70px; height: 70px;">
+              <p style="color: #919496;">"A Tua palavra é lâmpada para guiar os meus passos, é luz que ilumina o meu caminho."</p>
+              <h4>Salmos 119: 105</h4>
+            </center>
+            <!--<ul class="nav">
+              <li class="item-rede-social"><a href="#"><img src="imagens/facebook.png"></a></li>
+              <li class="item-rede-social"><a href="#"><img src="imagens/twitter.png"></a></li>
+              <li class="item-rede-social"><a href="#"><img src="imagens/instagram.png"></a></li>
+            </ul>-->
+          </div>
+        </div><!--/Row--><br/><br/>
+        <div>
+          <center>&copy 2017 - Todos os direitos reservados | Desenvolvido por ainfor.com.br</center>
+        </div>
+      </div>
+    </footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>

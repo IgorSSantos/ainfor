@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Oportunidades | AInfor</title>
+    <link rel="icon" href="imagens/lampada.png">
+
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="estilo/estilo.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <nav class="navbar navbar-fixed-top navbar-inverse navbar-transparente">
+      <div class="container">
+        
+        <!--Header-->
+        <div class="navbar-header">
+
+        <!--Botão toggle-->
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#barra-navegacao">
+              <span class="sr-only">Alternar navegação</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+          </button>
+
+          <a href="index.html" class="navbar-brand">
+            <img class="img-logo" src="imagens/index_ainfor.png">
+          </a>
+        </div>
+        <!--Navbar-->
+        <div class="collapse navbar-collapse" id="barra-navegacao">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="empresa.html">Quem somos</a></li>
+            <li><a href="servicos.html">Serviços</a></li>
+            <li><a href="ebook.html">Ebooks</a></li>
+            <li><a href="oportunidades.html">Oportunidades</a></li>
+          </ul>
+        </div>
+      </div><!--/Container-->
+    </nav><!--/Nav-->
+
+    <!--Servicos-->
+    <section id="formulario">
+      <div class="container">
+        <div class="row albuns">
+          <!--Albuns-->
+          <div class="col-md-12">
+            <div class="row">
+              <h3>Trabalhe conosco</h3>
+            </div><!--/Row--><br>
+          </div>
+          <!--Formulário-->
+          <div class="col-md-4">
+          <h4>Preencha e concorra a vaga</h4><br>
+            <form>
+              <div class="form-group col-md-12">
+                <input type="text" class="form-control" id="nome" placeholder="Nome e Sobrenome" autofocus="">
+              </div>
+              <div class="form-group col-md-12">
+                <input type="email" class="form-control" id="email" placeholder="Melhor e-mail">
+              </div>
+              <div class="form-group col-md-12">
+                <select class="form-control" id="">
+                  <option selected>Qual área ?</option>
+                  <option value="2">Estágio - Analista Comercial - 1 Vaga</option>
+                  <option value="3">Estágio - Desenvolvedor Web - 1 Vaga</option>
+                </select>
+              </div>
+              <div class="form-row align-items-center col-md-12">
+                <textarea type="text" class="form-control" rows="4" id="pedido" placeholder="Resuma suas principais qualidades e características: profissionais e pessoais."></textarea><br/>
+                <button type="submit" class="btn btn-primary">Concorrer a vaga</button>
+              </div>
+            </form><br/>
+          </div>
+          <div class="col-md-8 oportunidade-vagas">
+          <h4>Nossas vagas</h4><br>
+            <div class="col-md-6 vaga">
+              <div class="panel panel-success">
+                <div class="panel-heading">Estágio - Analista Comercial <span style="color: red;"> VAGA INATIVA</span></div>
+                <div class="panel-body">
+                <h5>Descrição da Vaga:</h5>
+                <ul>
+                  <li>Prospecção de clientes.</li>
+                  <li>Elaboração de propostas.</li>
+                  <li>Venda dos serviços e Pós-venda. </li>
+                  <li>20hs Semanais (Seg a Sex) - Vespertino.</li>
+                  <li>Bolsa de R$ 600,00 (VT + VA inclusos).</li>
+                </ul>
+                <h5>Requisitos:</h5>
+                <ul>
+                  <li>A partir do 3º Semestre de Administração ou áreas afins.</li>
+                  <li>Boa dicção e escrita.</li>
+                </ul>
+                </div>
+                <div class="panel-footer">*Conhecimento sólido em MS Office é diferencial.</div>
+              </div>
+            </div>
+            <div class="col-md-6 vaga">
+              <div class="panel panel-success">
+                <div class="panel-heading">Estágio - Desenvolvedor Web <span style="color: red;"> VAGA INATIVA</span></div>
+                <div class="panel-body">
+                <h5>Descrição da Vaga:</h5>
+                <ul>
+                  <li>Atuar diretamente no desevolvimento de aplicações web da empresa e de clientes.</li>
+                  <li>20hs Semanais (Seg a Sex) - Vespertino.</li>
+                  <li>Bolsa de R$ 600,00 (VT + VA inclusos).</li>
+                </ul>
+                <h5>Requisitos:</h5>
+                <ul>
+                  <li>Cursando, a partir do 3º Semestre: Sistemas de Informação ou Análise e Desenvolvimento de Sistemas.</li>
+                  <li>Conhecimento em: HTML5, PHP e SQL.</li>
+                </ul>
+                </div>
+                <div class="panel-footer">*Conhecer Bootstrap, JS e JQuery é diferencial.</div>
+              </div>
+            </div>
+          </div>
+        </div>        
+      </div>
+    </section>
+    <!--Rodapé-->
+    <footer id="rodape">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2">
+            <h4>Sobre nós</h4>
+            <ul class="nav">
+              <li><a href="empresa.html">Empresa</a></li>
+              <li><a href="servicos.html">Serviços</a></li>
+              <li><a href="orcamento.html">Orçamento</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <h4>Oportunidades</h4>
+            <ul class="nav">
+              <li><a href="ebook.html">E-books</a></li>
+              <li><a href="instrutoria.html">Capacitação</a></li>
+              <li><a href="oportunidades.html">Trabalhe conosco</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h4>Contatos</h4>
+              E-mail: contato.ainfor@gmail.com<br/>
+              Cidade: Salvador - BA - Vale das Pedrinhas - n18 <br/> 
+              Cep: 41927-040 <br/><br/>
+              CNPJ: 28.228.395/0001-01
+          </div>
+          <div class="col-md-4">
+            <center>
+              <img src="imagens/lampada.png" style="width: 70px; height: 70px;">
+              <p style="color: #919496;">"A Tua palavra é lâmpada para guiar os meus passos, é luz que ilumina o meu caminho."</p>
+              <h4>Salmos 119: 105</h4>
+            </center>
+            <!--<ul class="nav">
+              <li class="item-rede-social"><a href="#"><img src="imagens/facebook.png"></a></li>
+              <li class="item-rede-social"><a href="#"><img src="imagens/twitter.png"></a></li>
+              <li class="item-rede-social"><a href="#"><img src="imagens/instagram.png"></a></li>
+            </ul>-->
+          </div>
+        </div><!--/Row--><br/><br/>
+        <div>
+          <center>&copy 2017 - Todos os direitos reservados | Desenvolvido por ainfor.com.br</center>
+        </div>
+      </div>
+    </footer>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
